@@ -1061,7 +1061,9 @@
  *      - normally-open switches to 5V and D32.
  */
 //#define Z_MIN_PROBE_ENDSTOP // no longer required
-#define Z_MIN_PROBE_PIN 19 // Z_MAX_PIN
+// #define Z_MIN_PROBE_PIN 19 // Z_MAX_PIN
+// #define Z_MIN_PROBE_PIN 15 // Y_MAX_PIN
+#define Z_MIN_PROBE_PIN 57 // AUX-1 D57
 
 /**
  * Probe Type
