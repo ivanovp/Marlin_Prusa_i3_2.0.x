@@ -1064,7 +1064,8 @@
 //#define Z_MIN_PROBE_ENDSTOP // no longer required
 // #define Z_MIN_PROBE_PIN 19 // Z_MAX_PIN
 // #define Z_MIN_PROBE_PIN 15 // Y_MAX_PIN
-#define Z_MIN_PROBE_PIN 57 // AUX-1 D57
+//#define Z_MIN_PROBE_PIN 57 // AUX-1 D57
+#define Z_MIN_PROBE_PIN P0_10 // Probe input of SKR V1.4
 
 /**
  * Probe Type
@@ -2156,7 +2157,7 @@
 //
 //  Set this option if CLOCKWISE causes values to DECREASE
 //
-//#define REVERSE_ENCODER_DIRECTION
+#define REVERSE_ENCODER_DIRECTION
 
 //
 // This option reverses the encoder direction for navigating LCD menus.
@@ -2369,7 +2370,7 @@
 // RepRapDiscount FULL GRAPHIC Smart Controller
 // https://reprap.org/wiki/RepRapDiscount_Full_Graphic_Smart_Controller
 //
-//#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
+#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
 
 //
 // K.3D Full Graphic Smart Controller
@@ -2456,7 +2457,7 @@
 //#define FYSETC_MINI_12864_X_X    // Type C/D/E/F. No tunable RGB Backlight by default
 //#define FYSETC_MINI_12864_1_2    // Type C/D/E/F. Simple RGB Backlight (always on)
 //#define FYSETC_MINI_12864_2_0    // Type A/B. Discreet RGB Backlight
-#define FYSETC_MINI_12864_2_1    // Type A/B. NeoPixel RGB Backlight
+//#define FYSETC_MINI_12864_2_1    // Type A/B. NeoPixel RGB Backlight
 //#define FYSETC_GENERIC_12864_1_1 // Larger display with basic ON/OFF backlight.
 
 //
